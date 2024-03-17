@@ -86,12 +86,12 @@ h1{
     text-align: center;
     padding: 10px;
 }
-/*Display do input e do botÃĢo*/
+
 input, button{
     display: block;
 
 }
-/*Estilo do fieldset*/
+
 fieldset{
     display: block;
     margin: 0 auto;
@@ -99,7 +99,7 @@ fieldset{
     border: 0;
     flex-direction: column;
 }
-/*Estilo do botÃĢo*/
+
 button{
     margin: 0 auto;
     align-items: center;
@@ -112,7 +112,7 @@ button{
     color: aliceblue;
     border: none;
 }
-/*Estilo do input*/
+
 input, textarea{
     background-color: transparent;
     border-bottom: 1px solid;
