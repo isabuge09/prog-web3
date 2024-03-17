@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #F5C8D3;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    background-color: #F5A8A0;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    min-height: 50px;
+}
+
+ul,li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+footer{
+    background-color: #F5A8A0;
+    color: black;
+    min-width: 50px;
+    margin-top: auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 20px;
+}
+    
+.menu li a{
+    padding: 5px;
+}
+
+img {
+    margin-left: 20px;
+    max-width: 200px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+h1{
+    font-family: "Parisienne", cursive;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;/*tamanho máximo da seção*/
+    margin: auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.descricao > p{
+    margin-top: 10px;
+    width: 30vw;
+    text-align: center;
+    padding: 10px;
+}
+/*Display do input e do botÃĢo*/
+input, button{
+    display: block;
+
+}
+/*Estilo do fieldset*/
+fieldset{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    border: 0;
+    flex-direction: column;
+}
+/*Estilo do botÃĢo*/
+button{
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 1%;
+    margin-bottom: 8vh;
+    margin-top: 8vh;
+    background-color: #365F66;
+    color: aliceblue;
+    border: none;
+}
+/*Estilo do input*/
+input, textarea{
+    background-color: transparent;
+    border-bottom: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #1b2e31;
+    padding: 1% 1% 0 1%;
+    width: 20vw;
+    height: 10vh;
+}
